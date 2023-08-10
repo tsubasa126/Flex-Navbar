@@ -1,0 +1,40 @@
+.nav {
+    background-color: black;
+}
+
+.nav-title {
+    margin-right: auto;
+    margin-left: 2rem;
+    text-align: left;
+    color: white;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.nav-item a {
+    color: white;
+    margin: 1rem;
+}
+
+.btn {
+    color: white;
+    background-color: aqua;
+    box-shadow: black;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+.nav-item:hover {
+    background-color: white;
+}
+
+.nav-item:hover a {
+    color: black;
+}
